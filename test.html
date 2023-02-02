@@ -1,0 +1,29 @@
+<form enctype="multipart/form-data" method="post" name="fileinfo">
+    <p>
+      <label
+        >Your email address:
+        <input
+          type="email"
+          autocomplete="on"
+          name="name"
+          placeholder="email"
+          required
+          size="32"
+          maxlength="64" />
+      </label>
+    </p>
+  
+    <p>
+      <label
+        >File to stash:
+        <input type="file" name="multi" required />
+      </label>
+    </p>
+    <p>
+      <input type="submit" value="Stash the file!" />
+    </p>
+  </form>
+  <script src="testupload.js">
+</script>
+  <div id="output"></div>
+  
